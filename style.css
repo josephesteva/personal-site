@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-	background-color: gray;
+	background-color: rgb(35, 146, 197);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -32,4 +32,45 @@ nav>section>a {
 img {
 	height: 300px;
 	width: 450px;
+	align-self: flex-end;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(66, 167, 207);
+	padding: 40px;
+	margin: 0 15%;
+	border-bottom: solid slategray 3px;
+
+}
+
+.container>p {
+	font-size: 24px;
+	width: 400px;
+	margin: 20px 60px;
+	align-self: center;
+}
+
+h2+p {
+	margin-right: 20px;
+	text-align: justify;
+}
+
+img+a {
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	/* text-decoration: none; */
+	background-color: rgb(61, 31, 231);
+	color: black;
+	width: 450px;
+	padding: 5px;
+	border: solid black 3px;
 }
