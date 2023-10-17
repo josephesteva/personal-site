@@ -7,6 +7,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border: solid slategray 3px;
 }
 
 nav>p {
@@ -38,6 +39,11 @@ img {
 h1 {
 	font-size: 36px;
 	text-align: center;
+	background-color: rgb(66, 167, 207);
+	margin: 0 15%;
+	border: solid slategray 3px;
+	border-top: 0;
+	border-bottom: solid 3px navy;
 }
 
 .container {
@@ -46,7 +52,8 @@ h1 {
 	background-color: rgb(66, 167, 207);
 	padding: 40px;
 	margin: 0 15%;
-	border-bottom: solid slategray 3px;
+	border: solid slategray 3px;
+	border-top: 0;
 
 }
 
