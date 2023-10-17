@@ -25,6 +25,11 @@ nav>section>a {
 	margin: 2px;
 }
 
-.current-page {
+.nav-current {
 	text-decoration: underline;
+}
+
+img {
+	height: 300px;
+	width: 450px;
 }
