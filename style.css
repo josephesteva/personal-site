@@ -1,0 +1,30 @@
+body {
+	background-color: lightskyblue;
+}
+
+nav {
+	background-color: gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav>p {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+nav>section>a {
+	font-size: 20px;
+	text-decoration: none;
+	background-color: rgb(175, 165, 165);
+	color: black;
+	padding: 5px;
+	border: solid black 2px;
+	margin: 2px;
+}
+
+.current-page {
+	text-decoration: underline;
+}
